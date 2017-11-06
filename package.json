@@ -1,0 +1,35 @@
+{
+  "name": "zulip-electron-release",
+  "version": "0.0.1",
+  "description": "Fetch and download latest desktop app release",
+  "license": "Apache-2.0",
+  "email": "<svnitakash@gmail.com>",
+  "copyright": "©2017 Kandra Labs, Inc.",
+  "author": {
+    "name": "Akash Nimare",
+    "email": "svnitakash@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akashnimare/zulip-electron-release.git"
+  },
+  "bugs": {
+    "url": "https://github.com/akashnimare/zulip-electron-release/issues"
+  },
+  "keywords": [
+    "Zulip",
+    "electron-app",
+    "electron",
+    "Desktop app",
+    "electron-release",
+    "electron-builder",
+    "auto-updater"
+  ],
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "4.16.2",
+    "node-fetch": "1.7.3"
+  }
+}
